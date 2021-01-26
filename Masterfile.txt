@@ -1,1 +1,9 @@
-New file in Master branch for rebase
+New file in Master branch for rebase check
+
+no rebase since it master to all branches
+
+ssh-keygen
+learning
+
+generated under c:/users/username/.ssh/id_rsa
+
