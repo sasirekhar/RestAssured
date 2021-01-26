@@ -52,6 +52,10 @@ cobertura ie net.sourceforge.cobertura
 
 
 
+
+
+
+
 1. Create a scenario in Gherkin and save in features folder as .feature file
 2. Create a test.runner file and bind it to Cucumber Class and set Cucumber.options - features and glue to Step Definition
 3. Convert the feature file to Step Definition using junit  by running the runner file
