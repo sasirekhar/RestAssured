@@ -6,4 +6,6 @@ ssh-keygen
 learning
 
 generated under c:/users/username/.ssh/id_rsa
+In git Bash, cat  c:/users/username/.ssh/id_rsa.pub
 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDkl1gxy0uvMX8ueNzm13OJK762dFvhazwNi/zWc6sFdtK29pE+2VzoCs+2Wscpl/L3dR7zq6Aeuk9uuA0w7ujJ6ErYzhIZd0KQq+U70aaEMNuH2B6CZroVq11kyBEd8bwMD0w9u3EvLaqb8s43ELM7//HoPq3J2E+P7US7KpOB/iy7HxTZqEGMUWJP/PUJKC8pgKCv+/QNVujqQ5szKpjlU89tDjMP+OWnzFGR6WV8oO66X7xquhu6jiv4AiEyVzchknxDX/HB4ThqHc5Dw5pVTPJNAuPznJzI86RFhHGJuTLC2x5y4dv3ER0s7q/EcyytpUL8aNG2KH8nb6YscB4BjhXo4C3dkbi8OALC2COg2cVRChphu3xfusuFhcuIzIkW1Sl6/baA4CIjfevKRwuNJqMWkbyfUdk655hpKwdFL+q1yrLCBXy1c2pBgA49jCzcLIrjuo/odkroFn4c/mBRqzyGgFk2h4I4Le6YSICmVGq+126GmDSDHd1QArMViZs= P2SI@P2Systems
