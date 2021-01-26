@@ -1,0 +1,62 @@
+First steps for RestAssured
+
+1. Java Setup - Install jdk latest version, Set Environment Variable JAVA_HOME = C:\Program Files\Java\jdk-15.0.1, PATH = .../jdk-ver/bin, check installation
+2. IDE Setup - Install Ecllipse or IntelliJ.
+	For Eclipse, just download and extract files to a location (ie C:\Users\P2SI\eclipse)
+3. Maven Setup - Install Maven, Set Env variable MAVEN_HOME = C:\maven-363\apache-maven-3.6.3, Path = C:\maven-363\apache-maven-3.6.3\bin, update pom.xml file with mvn plugins
+4. Create a maven project
+5. Download Rest Assured, unzip to a folder. Unzip rest-assured-deps to afolder within
+6. Add Rest Assured Dependencies - pom.xml (use mvnrepositories.com to obtain code)
+7. Setup Maven Compiler Plugin - pom/xml file
+8. Add Cucumber Dependencies - cucumber-java, cucumber-jvm-deps,cucumber-JUnit
+9. Add Selenium Dependencies
+10. Add testng / junit Dependencies
+11. Add codehaus-groovy and json-simple Dependencies if needed 
+12. 
+
+
+Instead of Step 4 above. 
+1. Create Maven project from command prompt
+mvn archetype:generate -DgroupId=ToolsQA -DartifactId=DemoMavenProject -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+This created project under C:\Users\P2SI\DemoMavenProject
+and workspace under 
+2. For mvn roject created this way to work in Eclipse. In cmd prompt goto where the project is located ie C:\Users\P2SI\DemoMavenProject. Execute the below command
+mvn eclipse:eclipse
+3. Import to Eclipse and
+Update pom.xml - junit latest version under dependencies and maven-compiler-plugin under build
+4. Re-run command in Step 2
+mvn eclipse:eclipse
+5. Verify if all working right by running pom.xml file as Maven Test in Eclipse
+6. Install Java and 'Cucumber Eclipse Plugin' from Eclipse (Help> Install new software)
+7. Download Cucumber Jars from Online Maven Repository 
+	https://search.maven.org
+or
+Download Cucumber Jars from Maven dependenciesand update pom.xml to include 
+
+cucumber-core
+cucumber-java
+cucumber-junit
+cucumber-jvm-deps
+cucumber-reporting
+gherkin
+junit
+mockito-all
+cobertura ie net.sourceforge.cobertura
+
+8. Download Selenium and extract to a folder (ie. C:\Users\P2SI\selenium)
+9. Add External jars to the project properties file in Eclipse (ie. project>properties>java build path)
+10. Install Cucumber & Gherkin from Help>Eclipse MarketPlace > search cucumber > install
+	search Gherkin > install
+
+
+
+
+
+1. Create a scenario in Gherkin and save in features folder as .feature file
+2. Create a test.runner file and bind it to Cucumber Class and set Cucumber.options - features and glue to Step Definition
+3. Convert the feature file to Step Definition using junit  by running the runner file
+4. Copy generated step definition to a .java file under step definitions folder
+5. Write code and classes based on coding
+6. 
+
+
